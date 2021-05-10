@@ -1,4 +1,4 @@
-Source Attempted Segment Organizer is an utility that aims to organize attempted save and demo files when doing segments for Segmented Run.
+Source Attempted Segment Organizer is an utility that aims to organize attempted save and demo files when doing segments for Segmented Runs.
 
 ## How it Works
 Upon requested, the tool will seek out demo and save files for an attempted segment that the runner might want to keep. They are moved into a Work Folder for storage and is cataloged in the Demo List
@@ -15,4 +15,4 @@ At this time, only demos usable in Yalter's Listdemo can be opened.
 * A Table - Testing
 * Traderain - Demo Parsing code
 
-![](https://i.imgur.com/gpkLFZc.png)
+![](https://i.imgur.com/FRT7f95.png)
