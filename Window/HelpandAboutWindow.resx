@@ -117,6 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label6.Text" xml:space="preserve">
+    <value>This button will:
+- Refresh the Processed Demo List by checking what files are inside the final folder.
+- Check for new finished segments in the game. If one is found, it is moved to the work folder and an entry for it is then added to the Demo List</value>
+  </data>
   <data name="label4.Text" xml:space="preserve">
     <value>The goal of this tool is to make handling segments' demos and saves easier and more organized for runners.
 
@@ -126,11 +131,6 @@ segments you are satisfied with, which will rename them according to a customiza
   <data name="label3.Text" xml:space="preserve">
     <value>To use this tool, you first set up 2 folders: a work folder and a final folder, then designate them in the Settings.
 You will also need to fill out other information in the Settings for the tool to operate correctly.</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>This button will:
-- Refresh the Processed Demo List by checking what files are inside the final folder.
-- Check for new finished segments in the game. If one is found, it is moved to the work folder and an entry for it is then added to the Demo List</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

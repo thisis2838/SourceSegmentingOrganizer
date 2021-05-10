@@ -21,5 +21,6 @@ namespace demo_manager.Window
         {
             System.Diagnostics.Process.Start("https://discord.com/invite/sourceruns");
         }
+
     }
 }
