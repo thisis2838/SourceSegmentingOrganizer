@@ -1,4 +1,4 @@
-Source Demo Manager is an utility that aims to organize attempted save and demo files when doing segments for Segmented Run.
+Source Attempted Segment Organizer is an utility that aims to organize attempted save and demo files when doing segments for Segmented Run.
 
 ## How it Works
 Upon requested, the tool will seek out demo and save files for an attempted segment that the runner might want to keep. They are moved into a Work Folder for storage and is cataloged in the Demo List
