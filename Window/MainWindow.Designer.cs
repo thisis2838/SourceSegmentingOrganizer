@@ -371,7 +371,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(884, 624);
             this.Name = "MainWindow";
-            this.Text = "Demo Manager";
+            this.Text = "Source Attempted Segment Organizer";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.gDemList.ResumeLayout(false);
