@@ -107,9 +107,9 @@
             // 
             // butDLDelSelected
             // 
-            this.butDLDelSelected.Location = new System.Drawing.Point(393, 298);
+            this.butDLDelSelected.Location = new System.Drawing.Point(6, 298);
             this.butDLDelSelected.Name = "butDLDelSelected";
-            this.butDLDelSelected.Size = new System.Drawing.Size(94, 23);
+            this.butDLDelSelected.Size = new System.Drawing.Size(106, 23);
             this.butDLDelSelected.TabIndex = 2;
             this.butDLDelSelected.Text = "Delete Selected";
             this.butDLDelSelected.UseVisualStyleBackColor = true;
@@ -246,10 +246,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.butPDDelSelected);
             this.groupBox1.Controls.Add(this.gridProcessedDemos);
             this.groupBox1.Location = new System.Drawing.Point(10, 363);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(605, 158);
+            this.groupBox1.Size = new System.Drawing.Size(605, 186);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Processed Demos";
@@ -310,7 +311,6 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.butPDDelSelected);
             this.groupBox3.Controls.Add(this.gDemList);
             this.groupBox3.Controls.Add(this.groupBox1);
             this.groupBox3.Location = new System.Drawing.Point(12, 12);
@@ -322,9 +322,9 @@
             // 
             // butPDDelSelected
             // 
-            this.butPDDelSelected.Location = new System.Drawing.Point(515, 527);
+            this.butPDDelSelected.Location = new System.Drawing.Point(6, 154);
             this.butPDDelSelected.Name = "butPDDelSelected";
-            this.butPDDelSelected.Size = new System.Drawing.Size(94, 23);
+            this.butPDDelSelected.Size = new System.Drawing.Size(106, 23);
             this.butPDDelSelected.TabIndex = 4;
             this.butPDDelSelected.Text = "Delete Selected";
             this.butPDDelSelected.UseVisualStyleBackColor = true;
@@ -343,11 +343,11 @@
             // boxConsole
             // 
             this.boxConsole.Font = new System.Drawing.Font("Consolas", 8F);
-            this.boxConsole.Location = new System.Drawing.Point(7, 19);
+            this.boxConsole.Location = new System.Drawing.Point(6, 19);
             this.boxConsole.Multiline = true;
             this.boxConsole.Name = "boxConsole";
             this.boxConsole.ReadOnly = true;
-            this.boxConsole.Size = new System.Drawing.Size(203, 149);
+            this.boxConsole.Size = new System.Drawing.Size(203, 154);
             this.boxConsole.TabIndex = 7;
             // 
             // gConsole
@@ -373,7 +373,7 @@
             // boxLatestSeg
             // 
             this.boxLatestSeg.Font = new System.Drawing.Font("Consolas", 8F);
-            this.boxLatestSeg.Location = new System.Drawing.Point(3, 19);
+            this.boxLatestSeg.Location = new System.Drawing.Point(6, 19);
             this.boxLatestSeg.Multiline = true;
             this.boxLatestSeg.Name = "boxLatestSeg";
             this.boxLatestSeg.ReadOnly = true;
