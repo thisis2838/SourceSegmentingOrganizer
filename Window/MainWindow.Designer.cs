@@ -60,6 +60,8 @@
             this.butHelpAndAbout = new System.Windows.Forms.Button();
             this.boxConsole = new System.Windows.Forms.TextBox();
             this.gConsole = new System.Windows.Forms.GroupBox();
+            this.gLatestSeg = new System.Windows.Forms.GroupBox();
+            this.boxLatestSeg = new System.Windows.Forms.TextBox();
             this.gDemList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridDemoList)).BeginInit();
             this.gInfo.SuspendLayout();
@@ -68,6 +70,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridProcessedDemos)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.gConsole.SuspendLayout();
+            this.gLatestSeg.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttons_Setting
@@ -340,28 +343,49 @@
             // boxConsole
             // 
             this.boxConsole.Font = new System.Drawing.Font("Consolas", 8F);
-            this.boxConsole.Location = new System.Drawing.Point(6, 19);
+            this.boxConsole.Location = new System.Drawing.Point(7, 19);
             this.boxConsole.Multiline = true;
             this.boxConsole.Name = "boxConsole";
             this.boxConsole.ReadOnly = true;
-            this.boxConsole.Size = new System.Drawing.Size(203, 327);
+            this.boxConsole.Size = new System.Drawing.Size(203, 149);
             this.boxConsole.TabIndex = 7;
             // 
             // gConsole
             // 
             this.gConsole.Controls.Add(this.boxConsole);
-            this.gConsole.Location = new System.Drawing.Point(643, 216);
+            this.gConsole.Location = new System.Drawing.Point(643, 394);
             this.gConsole.Name = "gConsole";
-            this.gConsole.Size = new System.Drawing.Size(215, 357);
+            this.gConsole.Size = new System.Drawing.Size(215, 179);
             this.gConsole.TabIndex = 8;
             this.gConsole.TabStop = false;
             this.gConsole.Text = "Debug Ouput";
+            // 
+            // gLatestSeg
+            // 
+            this.gLatestSeg.Controls.Add(this.boxLatestSeg);
+            this.gLatestSeg.Location = new System.Drawing.Point(643, 216);
+            this.gLatestSeg.Name = "gLatestSeg";
+            this.gLatestSeg.Size = new System.Drawing.Size(215, 171);
+            this.gLatestSeg.TabIndex = 9;
+            this.gLatestSeg.TabStop = false;
+            this.gLatestSeg.Text = "Latest Segment";
+            // 
+            // boxLatestSeg
+            // 
+            this.boxLatestSeg.Font = new System.Drawing.Font("Consolas", 8F);
+            this.boxLatestSeg.Location = new System.Drawing.Point(3, 19);
+            this.boxLatestSeg.Multiline = true;
+            this.boxLatestSeg.Name = "boxLatestSeg";
+            this.boxLatestSeg.ReadOnly = true;
+            this.boxLatestSeg.Size = new System.Drawing.Size(203, 146);
+            this.boxLatestSeg.TabIndex = 8;
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(868, 585);
+            this.Controls.Add(this.gLatestSeg);
             this.Controls.Add(this.gConsole);
             this.Controls.Add(this.butHelpAndAbout);
             this.Controls.Add(this.groupBox3);
@@ -384,6 +408,8 @@
             this.groupBox3.ResumeLayout(false);
             this.gConsole.ResumeLayout(false);
             this.gConsole.PerformLayout();
+            this.gLatestSeg.ResumeLayout(false);
+            this.gLatestSeg.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -421,6 +447,8 @@
         private System.Windows.Forms.Button butHelpAndAbout;
         private System.Windows.Forms.TextBox boxConsole;
         private System.Windows.Forms.GroupBox gConsole;
+        private System.Windows.Forms.GroupBox gLatestSeg;
+        private System.Windows.Forms.TextBox boxLatestSeg;
     }
 }
 

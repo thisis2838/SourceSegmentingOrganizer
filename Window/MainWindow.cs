@@ -84,6 +84,7 @@ namespace demo_manager
         private void butDLRefresh_Click(object sender, EventArgs e)
         {
             UpdateDemoLists();
+            this.boxLatestSeg.Text = "";
 
             if (Settings.WorkDir == "" || Settings.FinalDir == "" || Settings.GameDir == "")
             {
@@ -111,6 +112,14 @@ namespace demo_manager
 
                 demo.CopyTo(workDir, demo.Name, false);
                 FileHandling.Copy(Path.Combine(gameDir, "save", Settings.SaveDefName), Path.Combine(workDir, demo.Name + ".sav"));
+
+                this.boxLatestSeg.AppendText($"Map: {demo.DemoInfo.MapName}\r\n\r\n");
+                this.boxLatestSeg.AppendText($"Total time:\r\n");
+                this.boxLatestSeg.AppendText($"{demo.DemoInfo.TotalTicks} ticks, {(demo.DemoInfo.TotalTicks / Settings.Tickrate):0.00000}s\r\n\r\n");
+                this.boxLatestSeg.AppendText($"Measured time:\r\n");
+                this.boxLatestSeg.AppendText($"{demo.DemoInfo.EffectiveTicks} ticks, {(demo.DemoInfo.EffectiveTicks / Settings.Tickrate):0.00000}s\r\n\r\n");
+                this.boxLatestSeg.AppendText($"Hash:\r\n");
+                this.boxLatestSeg.AppendText(BitConverter.ToString(demo.FileHash).Replace("-",""));
             }
             catch (Exception)
             {
