@@ -12,7 +12,7 @@ At this time, only demos usable in Yalter's Listdemo can be opened.
 
 ## Credits
 * 2838 - Programming, Graphics
-* A Table - Testing
+* A Table, the_kovic - Testing
 * Traderain - Demo Parsing code
 
 ![](https://i.imgur.com/FRT7f95.png)
