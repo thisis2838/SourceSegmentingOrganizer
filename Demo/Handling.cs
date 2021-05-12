@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace demo_manager.Demo
+namespace demo_organizer.Demo
 {
     class DemoFile
     {

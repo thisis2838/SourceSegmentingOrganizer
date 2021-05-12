@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace demo_manager
+namespace demo_organizer
 {
     class FileHandling
     {

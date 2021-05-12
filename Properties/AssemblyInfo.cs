@@ -1,15 +1,16 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+using System.Resources;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("demo-manager")]
+[assembly: NeutralResourcesLanguage("en-US")]
+[assembly: AssemblyTitle("demo-organizer")]
 [assembly: AssemblyDescription("Source Demo Manager for Segmented Runs")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("demo-manager")]
+[assembly: AssemblyCompany("Source Speedrunning Community")]
+[assembly: AssemblyProduct("demo-organizer")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -1,4 +1,4 @@
-﻿namespace demo_manager
+﻿namespace demo_organizer
 {
     partial class MainWindow
     {

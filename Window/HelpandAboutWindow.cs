@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace demo_manager.Window
+namespace demo_organizer.Window
 {
     public partial class HelpandAboutWindow : Form
     {

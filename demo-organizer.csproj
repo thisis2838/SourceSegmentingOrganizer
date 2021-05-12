@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4D92A436-A2CB-45DF-8A54-6AC86389F071}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>demo_manager</RootNamespace>
-    <AssemblyName>demo-manager</AssemblyName>
+    <RootNamespace>demo_organizer</RootNamespace>
+    <AssemblyName>demo-organizer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

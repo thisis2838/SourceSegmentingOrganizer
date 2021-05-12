@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Globalization;
 using System.Windows.Forms;
 
-namespace demo_manager
+namespace demo_organizer
 {
     static class Program
     {
@@ -12,6 +13,7 @@ namespace demo_manager
         [STAThread]
         static void Main()
         {
+            CultureInfo.CurrentCulture = new CultureInfo("en-US", false);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Window = new MainWindow();

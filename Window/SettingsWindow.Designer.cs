@@ -1,4 +1,4 @@
-﻿namespace demo_manager.Window
+﻿namespace demo_organizer.Window
 {
     partial class SettingsWindow
     {

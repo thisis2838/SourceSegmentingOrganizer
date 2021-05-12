@@ -1,5 +1,5 @@
-﻿using demo_manager.Demo;
-using demo_manager.Window;
+﻿using demo_organizer.Demo;
+using demo_organizer.Window;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace demo_manager
+namespace demo_organizer
 {
     public partial class MainWindow : Form
     {
@@ -121,7 +121,7 @@ namespace demo_manager
                 this.boxLatestSeg.AppendText($"Hash:\r\n");
                 this.boxLatestSeg.AppendText(BitConverter.ToString(demo.FileHash).Replace("-",""));
             }
-            catch (Exception)
+            catch (FileNotFoundException)
             {
                 Console.WriteLine($"Couldn't find {Path.Combine(gameDir, Settings.DemDefName)} \n");
             }

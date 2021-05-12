@@ -1,4 +1,4 @@
-﻿namespace demo_manager.Window
+﻿namespace demo_organizer.Window
 {
     partial class HelpandAboutWindow
     {
@@ -134,7 +134,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::demo_manager.Properties.Resources.habBG;
+            this.pictureBox2.Image = global::demo_organizer.Properties.Resources.habBG;
             this.pictureBox2.Location = new System.Drawing.Point(-6, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(792, 404);

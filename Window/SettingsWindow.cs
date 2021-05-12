@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using Microsoft.WindowsAPICodePack.Dialogs;
 
-namespace demo_manager.Window
+namespace demo_organizer.Window
 {
     public partial class SettingsWindow : Form
     {
