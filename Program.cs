@@ -1,23 +1,23 @@
 ﻿using System;
-using System.Globalization;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using source_segmenting_organizer.Forms;
 
-namespace demo_organizer
+namespace source_segmenting_organizer
 {
-    static class Program
+    internal static class Program
     {
-        static public MainWindow Window;
-
-        //static public SettingsWindow Settings { get; set; } = new SettingsWindow();
-
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
         [STAThread]
         static void Main()
         {
-            CultureInfo.CurrentCulture = new CultureInfo("en-US", false);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Window = new MainWindow();
-            Application.Run(Window);
+            Application.Run(new MainForm());
         }
     }
 }

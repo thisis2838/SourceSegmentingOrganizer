@@ -1,17 +1,16 @@
 ﻿using System.Reflection;
-using System.Resources;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: NeutralResourcesLanguage("en-US")]
-[assembly: AssemblyTitle("demo-organizer")]
-[assembly: AssemblyDescription("Source Demo Manager for Segmented Runs")]
+[assembly: AssemblyTitle("source-segmenting-organizer")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Source Speedrunning Community")]
-[assembly: AssemblyProduct("demo-organizer")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("source-segmenting-organizer")]
+[assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -21,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4d92a436-a2cb-45df-8a54-6ac86389f071")]
+[assembly: Guid("23742d8d-865e-4633-8c06-c883c0b6acb9")]
 
 // Version information for an assembly consists of the following four values:
 //
